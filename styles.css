@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Recipe title styling */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+/* Indented metadata section */
+.recipe-meta {
+  margin-left: 24px;                  /* Indents the box relative to the H1 */
+  background-color: #e8f5e9;           /* Soft light green background */
+  border-left: 4px solid #2e7d32;      /* Darker green accent border on the left */
+  border-radius: 6px;                  /* Rounded corners */
+  padding: 12px 16px;                  /* Spacing inside the box */
+  color: #1b5e20;                      /* Dark green text color */
+  font-size: 0.95rem;                  /* Smaller font size */
+}
+
+/* Remove default paragraph margins inside the callout */
+.recipe-meta p {
+  margin: 4px 0;
+  line-height: 1.4;
+}
